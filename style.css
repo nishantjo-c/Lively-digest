@@ -1,0 +1,136 @@
+.main_container {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.table_style1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    padding-right: 335px;
+}
+
+.table_style2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    padding-left: 335px;
+}
+
+.header {
+    /* border: 1px solid black; */
+    position: fixed;
+    padding: 10px;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.body_container {
+    /* border: 1px solid red; */
+    background-color: white;
+    position: relative;
+    height: 700px;
+    z-index: 1;   
+}
+
+
+.mid_heading {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.image {
+    position: relative;
+    padding-left: 535px;
+    width: 200px;
+    height: 125px;
+    float:top;
+    top:2px;
+    z-index: 2;
+}
+
+.content1 {
+    width: 400px;
+    left: 100px;
+    position: absolute;
+    top: 540px;
+    background-color: white;
+    text-align: center;
+}
+
+.fashion_image{
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 50px;
+    position: relative;
+}
+
+#more {
+    display: none;
+}
+
+.logo2 {
+    width: 600px;   
+    position: absolute;
+    top: 312.5px;
+    padding-left: 90px;
+    
+}
+
+h1 {
+    font-family: 'Noto Serif Display', serif;
+}
+
+h3 {
+    font-family: 'Noto Serif Display', serif;
+}
+
+.music {
+    background-color: #CEE5D0;
+    top: 60px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    
+}
+
+.books {
+    top: 60px;
+    background-color: #F3F0D7;
+    /* border: 1px solid green; */
+    text-align: center;
+    position: relative;
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+iframe{
+    padding: 20px;
+}
+
+.book_text {
+    font-family: 'Noto Serif Display', serif;
+    width: 200px;
+    float: right;
+    position: absolute;
+    top: 200px;
+    right: 400px;
+
+}
+
+.goodreads_widget {
+    padding-left: 70px;
+}
